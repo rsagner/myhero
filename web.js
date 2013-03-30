@@ -1,6 +1,6 @@
 var express = require('express');
 
-var express = require('http');
+var http = require('http');
 
 var app = express.createServer(express.logger());
 
