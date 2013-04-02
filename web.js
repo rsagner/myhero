@@ -5,7 +5,7 @@ var http = require('http');
 var app = express.createServer(express.logger());
 
 app.get('/', function(request, response) {
-  response.send('Hello World! - by Rikard4');
+  response.send('Hello World! - by Rikard3');
 });
 
 app.get('/echo', function(request, response) {
